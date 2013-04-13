@@ -1,0 +1,74 @@
+body {
+    background: #FAFAFA url("../img/bg3.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 12px;
+    color: #FAFAFA;
+}
+
+.menu {
+    float: left;
+    top: 0;
+    margin-left: 50px;
+    width: 200px;
+    padding: 10px;
+    font-family: 'Gabriela', serif;
+}
+
+.logo {
+    padding:20px;
+    background: rgba(0, 0, 0, .85);
+    margin-top: -10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.items {
+    background: rgba(0, 0, 0, .85);
+    padding: 15px;
+    margin-top: 25px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    float: left;
+    margin: 25px;
+    background: rgba(0, 0, 0, .85);
+    width: 70%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+.nostyle {
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 10px 0 10px 0;
+    transition: margin-left 1s;
+    -webkit-transition: margin-left 1s;
+}
+
+li a {
+    text-decoration: none;
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+li:hover {
+    margin-left: 20px;
+}
+
+.items a:hover {
+    color: #aaa;
+}
