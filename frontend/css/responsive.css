@@ -1,0 +1,11 @@
+.responsivemenu {
+    display: none;
+    margin: 5px;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    background: #DDD;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
