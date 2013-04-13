@@ -1,6 +1,13 @@
 Producción FrontEnd FicONDev 2013
 =================================
 
+Nota: Esta web necesita un servidor web iniciado para funcionar. Se puede
+obtener uno a través del comando:
+
+    python -m SimpleHTTPServer
+
+Y accediendo a http://localhost:8000
+
 Características:
 
 * Utiliza CSS3 transforms para las animaciones del menú y del logotipo
