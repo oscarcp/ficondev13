@@ -1,0 +1,28 @@
+@media screen and (max-width: 480px ) {
+    .menu {
+        display: none;
+    }
+
+    .responsivemenu {
+        display: inline;
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+    body {
+        background: #FAFAFA;
+        font-size: 10px;
+        color: #333;
+        text-align: justify;
+    }
+    .content {
+        float:none;
+        width: 85%;
+        background: #333;
+        padding: 10px;
+        margin: 10px;
+        background: none;
+    }
+    img {
+        max-width: 200px;
+    }
+}
